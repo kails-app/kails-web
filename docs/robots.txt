@@ -1,0 +1,4 @@
+# Test site: every page sends noindex (meta tag + X-Robots-Tag header).
+# Crawling stays allowed so search engines can read that noindex.
+User-agent: *
+Allow: /
